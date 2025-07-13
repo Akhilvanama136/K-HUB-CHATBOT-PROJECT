@@ -1,0 +1,14 @@
+{
+  "name": "chatbot-app-root",
+  "version": "1.0.0",
+  "description": "Root package.json to redirect commands to chat subdirectory",
+  "scripts": {
+    "start": "cd chat && npm start",
+    "server": "cd chat && npm run server",
+    "client": "cd chat && npm run client",
+    "dev": "cd chat && npm run dev",
+    "install-client": "cd chat && npm run install-client",
+    "build": "cd chat && npm run build"
+  },
+  "private": true
+} 
